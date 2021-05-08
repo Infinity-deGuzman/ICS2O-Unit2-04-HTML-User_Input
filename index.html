@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- ICS2O-Unit2-02-HTML-Address_Input -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Area and Perimeter of a Rectangle, with Javascript">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Infinity de Guzman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/ico" sizes="32x32" href="./favicons/sunset-32x32.ico">
+    <link rel="icon" type="image/ico" sizes="16x16" href="./favicons/sunset-16x16.ico">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Area and Perimeter of a Rectangle, with a JS file</title>
+  </head>
+  <body>
+    <h1>Area and Perimeter of a Rectangle, with a JS</h1>
+    <img src="./rectangle.png" alt="rectangle" width="50%" height="50%">
+    <h2>Formulas:</h2>
+    <h3>Area = l x w</h3>
+    <h3>Perimeter = 2(l + w)</h3>
+    <p>
+      Please enter integers for dimensions:
+      <form action="javascript:enterClicked()">
+        <label for="length">Length:</label>
+        <input type="number" id="rectangle-length" placeholder="Enter the length">cm<br><br>
+        <label for="width">Width:</label>
+        <input type="number" id="rectangle-width" placeholder="Enter the width">cm<br><br>
+        <input type="submit" value="Calculate">
+      </form>
+    </p>
+  <div id="answers"></div>
+    <div id="area"></div>
+    <div id="perimeter"></div>
+</html>
