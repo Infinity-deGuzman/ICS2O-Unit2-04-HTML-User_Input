@@ -21,10 +21,3 @@ function enterClicked () {
   document.getElementById('area').innerHTML = 'The area is: ' + length + ' x ' + width + ' = ' + area + ' cm²'
   document.getElementById('perimeter').innerHTML = 'The perimeter is: 2 x (' + length + ' + ' + width + ') = ' + perimeter + ' cm'
 }
-
-const config = {
-  scale: {
-    // we place it in the middle of the page
-    autoCenter: Phaser.Scale.CENTER_BOTH
-  }
-}
